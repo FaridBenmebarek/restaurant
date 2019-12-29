@@ -8,7 +8,7 @@ export default class NavbarLinks extends Component {
       {
         id: 0,
         path: "/",
-        name: "home",
+        name: "accueil",
       },
       {
         id: 1,

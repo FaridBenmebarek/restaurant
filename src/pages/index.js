@@ -10,7 +10,7 @@ import Gallery from "../components/HomePageComponents/Gallery"
 import Menu from "../components/HomePageComponents/Menu"
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Accueil" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={img}>
       <Banner title="eatery" subtitle="Place Charles Valentin - Dunkerque, FR">
         <Link to="/menu/" style={{ textDecoration: "none" }}>

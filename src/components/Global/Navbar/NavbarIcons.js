@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
-import styled from 'styled-components'
-import { styles } from '../../../utils'
+import React, { Component } from "react"
+import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa"
+import styled from "styled-components"
+import { styles } from "../../../utils"
 export default class NavbarIcons extends Component {
   state = {
     icons: [
@@ -13,12 +13,12 @@ export default class NavbarIcons extends Component {
       {
         id: 2,
         icon: <FaTwitter className="icon twitter-icon" />,
-        path: `https://www.facebook.com`,
+        path: `https://www.twitter.com`,
       },
       {
         id: 3,
         icon: <FaInstagram className="icon instagram-icon" />,
-        path: `https://www.facebook.com`,
+        path: `https://www.instagram.com`,
       },
     ],
   }
